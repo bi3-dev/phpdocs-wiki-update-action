@@ -11,7 +11,7 @@ ACTION_BIN_PATH="${GITHUB_ACTION_PATH}/bin"
 if [ "$ENGINE" == "evert/phpdoc-md" ]; then
   NEEDED_PHP_VERSION=7.4
 elif [ "$ENGINE" == "clean/phpdoc-md" ]; then
-  NEEDED_PHP_VERSION=8.1
+  NEEDED_PHP_VERSION=8.3
 else
   echo 'ERROR: unknown engine'
 
